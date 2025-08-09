@@ -38,18 +38,19 @@ Source: [Goodbooks-10k on Kaggle](https://www.kaggle.com/zygmunt/goodbooks-10k)
 
 ## Project Structure
 
+```plaintext
 Book-Recommendation-System/
 │
-├── data/
+├── data/ 
 │   ├── books.csv               # Book details (book_id, title, authors, etc.)
 │   ├── ratings.csv             # Ratings given by users to books
 │   ├── tags.csv                # Mapping of tag_id to tag names
 │   ├── book_tags.csv           # Mapping of books to tags
 │   ├── to_read.csv             # List of books users want to read
-│
-├── notebooks/
+│ 
+├── notebooks/ 
 │   ├── Book_Recommendation_System.ipynb  # Main Jupyter Notebook for model building & analysis
-│
+│ 
 ├── src/
 │   ├── __init__.py
 │   ├── data_preprocessing.py   # Functions for loading and cleaning dataset
@@ -60,6 +61,8 @@ Book-Recommendation-System/
 ├── requirements.txt            # List of Python dependencies
 ├── .gitignore                  # Ignore unnecessary files
 └── LICENSE                     # License file (if applicable)
+```
+
 
 
 
